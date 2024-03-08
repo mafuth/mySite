@@ -3,8 +3,8 @@
 	<meta name="description" content="About mafuth" />
 </svelte:head>
 
-<div class="w-100">
-	<video class="absolute w-screen h-screen object-cover z-[1]" playsinline muted loop autoplay src="./hero.mp4">
+<div class="w-screen">
+	<video class="absolute w-100 h-screen object-cover z-[1]" playsinline muted loop autoplay src="./hero.mp4">
 	</video>
 	<div class="backdrop-blur-[1.5px] relative w-100 h-screen z-[2] grid content-center justify-items-center bg-black bg-opacity-80">
 		<div class="text-center">
@@ -13,7 +13,7 @@
 		</div>
 	</div>
 </div>
-<div class="w-100 bg-zinc min-h-screen">
+<div class="w-screen bg-zinc min-h-screen">
 	<div class="text-center pt-[100px]">
 		<h1 class="text-white font-extrabold lg:text-6xl text-2xl font-[Fredoka]">A bit about me ...</h1>
 		<div class="lg:mx-[200px] mx-3 mt-10 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
@@ -129,7 +129,7 @@
 		</div>
 	</div>
 </div>
-<div class="w-100 bg-zinc">
+<div class="w-screen bg-zinc">
 	<div class="text-center pt-[50px]">
 		<h1 class="text-white font-extrabold lg:text-6xl text-2xl font-[Fredoka]">What am I up to?</h1>
 	</div>
@@ -160,17 +160,23 @@
 		</div>
 	</div>
 </div>
-<div class="w-100 bg-zinc min-h-screen mt-[100px]">
-	<video class="absolute w-full h-full object-cover z-[1]" playsinline muted loop autoplay src="./hobby.mp4">
+<div class="w-screen bg-zinc min-h-screen mt-[100px] lg:block hidden">
+	<video class="absolute w-100 h-full object-cover z-[1]" playsinline muted loop autoplay src="./hobby.mp4">
 	</video>
-	<div class="backdrop-blur-[0.5px] relative w-full min-h-screen z-[2] grid content-center justify-items-center bg-black bg-opacity-80">
+	<div class="backdrop-blur-[0.5px] relative w-100 min-h-screen z-[2] grid content-center justify-items-center bg-black bg-opacity-80">
 		<div class="text-center">
-			<h1 class="text-white font-extrabold lg:text-8xl text-4xl font-[MageyHuseynu] hero glitch layers" data-text="ޑުރޯން ފޮޓޯގުރަފީ">ޑުރޯން ފޮޓޯގުރަފީ</h1>
+			<h1 class="text-white font-extrabold lg:text-4xl text-2xl font-[MageyHuseynu] hero glitch layers" data-text="ޑުރޯން ފޮޓޯގުރަފީ">ޑުރޯން ފޮޓޯގުރަފީ</h1>
 			<h1 class="text-white font-extrabold lg:text-2xl text-sm font-[Fredoka] mt-10 hero glitch layers" data-text="Drone Photography">Drone Photography</h1>
 		</div>
 	</div>
 </div>
-<div class="w-100 bg-zinc min-h-screen grid lg:grid-cols-3 grid-cols-1 gap-3 p-10">
+<div class="w-screen bg-zinc mb-5 lg:hidden block">
+	<div class="text-center pt-[100px]">
+		<h1 class="text-white font-extrabold lg:text-4xl text-4xl font-[MageyHuseynu]">ޑުރޯން ފޮޓޯގުރަފީ</h1>
+		<h1 class="text-white font-extrabold lg:text-2xl text-xl font-[Fredoka] mt-10">Drone Photography</h1>
+	</div>
+</div>
+<div class="w-screen bg-zinc min-h-screen grid lg:grid-cols-3 grid-cols-1 gap-3 p-10">
 	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0627.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">K.Male'</h1>

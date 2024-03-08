@@ -2,13 +2,13 @@
 	import "../app.pcss";
 </script>
 <div class="bg-black min-h-screen">
-	<main class="pb-[20px]">
+	<main class="pb-[20px] max-w-100">
 		<slot></slot>
 	</main>
 	<div class="lg:text-start text-center">
         <footer class="footer items-center p-5 text-[#e98f44]">
             <div class="flex items-center grid-flow-col">
-                <img src="./icon.png" class="h-[20px]"/>
+                <img src="./icon.png" class="h-[20px]" alt="logo"/>
                 <p class="text-white font-[Fredoka] ms-2">Copyright © 2024 - All right reserved</p>
             </div> 
         </footer>
