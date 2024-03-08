@@ -2,10 +2,10 @@
 	import "../app.pcss";
 </script>
 <div class="bg-black min-h-screen">
-	<main class="lg:pb-[30px] pb-[100px]">
+	<main class="pb-[20px]">
 		<slot></slot>
 	</main>
-	<div class="hidden lg:block">
+	<div class="lg:text-start text-center">
         <footer class="footer items-center p-5 text-[#e98f44]">
             <div class="flex items-center grid-flow-col">
                 <img src="./icon.png" class="h-[20px]"/>
