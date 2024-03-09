@@ -6,7 +6,7 @@
 <div class="w-100">
 	<video class="absolute w-screen h-screen object-cover z-[1]" playsinline muted loop autoplay src="./hero.mp4">
 	</video>
-	<div class="backdrop-blur-[1.5px] relative w-100 h-screen z-[2] grid content-center justify-items-center bg-black bg-opacity-80">
+	<div class="backdrop-blur-[1.5px] relative w-100 h-screen z-[2] grid content-center justify-items-center bg-black bg-opacity-50">
 		<div class="text-center">
 			<h1 class="text-white font-extrabold lg:text-8xl text-6xl font-[Fredoka] animate__animated animate__fadeInUp hero glitch layers" data-text="Hello">Hello</h1>
 			<h1 class="text-white font-extrabold lg:text-6xl text-2xl font-[MageyHuseynu] mt-10 animate__animated animate__fadeInUp hero glitch layers" data-text="އައްސަލާމު އަލައިކުމް">އައްސަލާމު އަލައިކުމް</h1>
@@ -20,8 +20,8 @@
 			<div>
 				<p class="rounded-md bg-zinc-900 p-3 font-[MageyHuseynu] text-center text-4xl mb-3">މަފުތް</p>
 				<div class="grid grid-cols-2 gap-3">
-					<p class="rounded-md bg-zinc-900 p-3 font-[Nerko] text-start text-2xl">Mohamed Mafaaz</p>
-					<p class="rounded-md bg-zinc-900 p-3 font-[MageyHuseynu] text-end text-2xl">މުޙައްމަދު މަފާޒު</p>
+					<p class="rounded-md bg-zinc-900 p-3 font-[Nerko] text-center text-2xl">Mohamed Mafaaz</p>
+					<p class="rounded-md bg-zinc-900 p-3 font-[MageyHuseynu] text-center text-2xl">މުޙައްމަދު މަފާޒު</p>
 				</div>
 				<p class="rounded-md bg-zinc-900 p-3 font-[Fredoka] text-center text-2xl mt-3">MAFUTH</p>
 			</div>
@@ -30,7 +30,7 @@
 					<h1 class="font-extrabold font-[Fredoka] text-2xl">Web Developer &  Data Analyst</h1>
 					<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">Creating inovative soilutions to big problems using my skills.</p>
 					<div class="pt-[20px] text-start">
-						<a class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://github.com/mafuth">
+						<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://github.com/mafuth">
 							Check my Github
 						</a>
 					</div>
@@ -39,13 +39,13 @@
 		</div>
 		<div class="lg:mx-[200px] mx-3 mt-3 grid grid-cols-1 gap-3 text-white">
 			<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0053.jpg)] bg-center bg-cover">
-				<div class="backdrop-blur-sm relative w-100 z-[2] grid content-center justify-items-center bg-black bg-opacity-80 p-10">
+				<div class="backdrop-blur-sm relative w-100 z-[2] grid content-center justify-items-center bg-black bg-opacity-80 py-10">
 					<h1 class="font-extrabold font-[Fredoka] text-4xl">My Skills</h1>
-					<div class="lg:mx-[200px] mx-3 mt-3 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
-						<div class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko] grid content-center justify-items-center">
+					<div class="lg:mx-10 mx-2 mt-3 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
+						<div class="p-3 font-[Nerko] grid content-center justify-items-center">
 							<h1 class="font-extrabold font-[Fredoka] text-2xl text-center">Development</h1>
 						</div>
-						<div class="rounded-md bg-zinc-800 p-5 mt-4 font-[Nerko] text-start">
+						<div class="rounded-md bg-zinc-800 p-5 mt-4 font-[Nerko] text-start bg-opacity-80">
 							<ul class="list-decimal ms-5 text-2xl">
 								<li class="mb-3">
 									PHP
@@ -88,15 +88,15 @@
 								</li>
 							</ul>
 						</div>
-						<div class="rounded-md bg-zinc-800 p-3 font-[Nerko] grid content-center justify-items-center">
+						<div class="p-3 font-[Nerko] grid content-center justify-items-center">
 							<h1 class="font-extrabold font-[Fredoka] text-2xl text-center">Server Side / Deployment</h1>
 						</div>
-						<div class="rounded-md bg-zinc-800 p-5 font-[Nerko] text-start">
+						<div class="rounded-md bg-zinc-800 p-5 font-[Nerko] text-start bg-opacity-80">
 							<ul class="list-decimal ms-5 text-2xl">
 								<li class="mb-3">
 									Docker
 									<ul class="list-disc ms-4 text-sm">
-										<li>Creating full Virtual Machines</li>
+										<li>Creating full GUI Virtual Machines</li>
 										<li>Deploying apps to meet any custom requirment</li>
 									</ul>
 								</li>
@@ -140,19 +140,19 @@
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">News scrapping summerization and adding the "ENGAGMENT" factor using a self trained local LLM.</p>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Train and fine tune a small LLM to learn how they work and the best ways to optimise.</p>
 				<div class="pt-[20px]">
-					<a class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://www.instagram.com/chronicalbot/">
+					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://www.instagram.com/chronicalbot/">
 						Check it out
 					</a>
 				</div>
 			</div>
 		</div>
 		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/chaosStream.png)] bg-center bg-cover hover:bg-right ease-in-out duration-300">
-			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-90 p-10">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
 				<h1 class="font-extrabold font-[Fredoka] text-2xl">Chaos Stream</h1>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">A fully automated streaming platform that can do video transcoding on the fly and automated torrent search and download for movies and shows, all inside Docker.</p>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Build a Netflix alternative that can be self hosted with one command ad to learn load blancing using Traefik, and How Cloudflare Zero trust work</p>
 				<div class="pt-[20px]">
-					<a class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://stream.chaosmv.com">
+					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://stream.chaosmv.com">
 						Check it out
 					</a>
 				</div>
@@ -176,41 +176,41 @@
 		<h1 class="text-white font-extrabold lg:text-2xl text-xl font-[Fredoka] mt-10">Drone Photography</h1>
 	</div>
 </div>
-<div class="w-100 bg-zinc min-h-screen grid lg:grid-cols-3 grid-cols-1 gap-3 p-10">
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0627.jpg)] bg-center bg-cover group">
+<div class="w-100 bg-zinc min-h-screen grid lg:grid-cols-3 grid-cols-1 gap-3 p-10" id="gallery">
+	<a href="/gallery/male" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0627.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">K.Male'</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">މާލެ</h1>
 		</div>
-	</div>
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0044.jpg)] bg-center bg-cover group">
+	</a>
+	<a href="/gallery/kendhoo" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0044.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">B.Kendhoo</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">ކެންދޫ</h1>
 		</div>
-	</div>
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0513.jpg)] bg-center bg-cover group">
+	</a>
+	<a href="/gallery/hulhumale" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0513.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">K.Hulhumale'</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">ހުޅުމާލެ</h1>
 		</div>
-	</div>
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0173.jpg)] bg-center bg-cover group">
+	</a>
+	<a href="/gallery/villingili" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0173.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">K.Villingili</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">ވިލިގިލި</h1>
 		</div>
-	</div>
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0043.jpg)] bg-center bg-cover group">
+	</a>
+	<a href="/gallery/hithaadhoo" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0043.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">B.Hithaadhoo</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">ހިތާދޫ</h1>
 		</div>
-	</div>
-	<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0150.jpg)] bg-center bg-cover group">
+	</a>
+	<a href="/gallery/furanafushi" class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0150.jpg)] bg-center bg-cover group">
 		<div class="backdrop-blur-sm group-hover:bg-opacity-50 group-hover:backdrop-blur-[0.5px] relative w-100 z-[2] bg-black bg-opacity-80 py-[100px] p-10 h-full grid content-center justify-items-center ease-in-out duration-300">
 			<h1 class="font-extrabold font-[Fredoka] text-4xl text-white group-hover:hidden ease-in-out duration-300">K.Furanafushi</h1>
 			<h1 class="font-extrabold font-[MageyHuseynu] text-4xl text-white group-hover:block hidden ease-in-out duration-300">ފުރަނަފުޝި</h1>
 		</div>
-	</div>
+	</a>
 </div>
