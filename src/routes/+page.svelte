@@ -57,6 +57,7 @@
 								<li class="mb-3">
 									NodeJS
 									<ul class="list-disc ms-4 text-sm">
+										<li>React</li>
 										<li>NextJS</li>
 										<li>Svelte</li>
 										<li>Vue</li>
@@ -71,11 +72,15 @@
 										<li>Mysql</li>
 										<li>MariaDB</li>
 										<li>Oracle</li>
+										<li>Microsoft Azure SQL Database</li>
 										<li>Google Big Query</li>
 									</ul>
 								</li>
 								<li class="mb-3">
 									Python
+								</li>
+								<li class="mb-3">
+									Java
 								</li>
 								<li class="mb-3">
 									GO
@@ -102,7 +107,13 @@
 								</li>
 								<li class="mb-3">Debian / Ubuntu</li>
 								<li class="mb-3">CentOS</li>
-								<li class="mb-3">Proxmox</li>
+								<li class="mb-3">
+									Proxmox
+									<ul class="list-disc ms-4 text-sm">
+										<li>High Availability Clustering</li>
+										<li>Email Gateway</li>
+									</ul>
+								</li>
 								<li class="mb-3">TrueNas</li>
 								<li class="mb-3">
 									Wireguard
@@ -113,7 +124,12 @@
 								</li>
 								<li class="mb-3">CLoudflare Zero trust</li>
 								<li class="mb-3">Reverse Proxy</li>
-								<li class="mb-3">Load balancing</li>
+								<li class="mb-3">
+									Load balancing
+									<ul class="list-disc ms-4 text-sm">
+										<li>Traefik</li>
+										<li>Kubernetes</li>
+									</ul></li>
 								<li class="mb-3">
 									Workflows
 									<ul class="list-disc ms-4 text-sm">
@@ -124,37 +140,6 @@
 							</ul>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="w-100 bg-zinc">
-	<div class="text-center pt-[50px]">
-		<h1 class="text-white font-extrabold lg:text-6xl text-2xl font-[Fredoka]">What am I up to?</h1>
-	</div>
-	<div class="lg:mx-[200px] mx-3 mt-10 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
-		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/chronicalBot.jpg)] bg-center bg-cover hover:bg-left ease-in-out duration-300">
-			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-90 p-10">
-				<h1 class="font-extrabold font-[Fredoka] text-2xl">Chronical BOT</h1>
-				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">News scrapping summerization and adding the "ENGAGMENT" factor using a self trained local LLM.</p>
-				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Train and fine tune a small LLM to learn how they work and the best ways to optimise.</p>
-				<div class="pt-[20px]">
-					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://www.instagram.com/chronicalbot/">
-						Check it out
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/chaosStream.png)] bg-center bg-cover hover:bg-right ease-in-out duration-300">
-			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
-				<h1 class="font-extrabold font-[Fredoka] text-2xl">Chaos Stream</h1>
-				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">A fully automated streaming platform that can do video transcoding on the fly and automated torrent search and download for movies and shows, all inside Docker.</p>
-				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Build a Netflix alternative that can be self hosted with one command ad to learn load blancing using Traefik, and How Cloudflare Zero trust work</p>
-				<div class="pt-[20px]">
-					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://stream.chaosmv.com">
-						Check it out
-					</a>
 				</div>
 			</div>
 		</div>
