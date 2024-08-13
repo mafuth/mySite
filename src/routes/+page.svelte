@@ -151,7 +151,7 @@
 	</div>
 	<div class="lg:mx-[200px] mx-3 mt-10 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
 		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/abm.jpeg)] bg-center bg-cover ease-in-out duration-300">
-			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-90 p-10">
 				<h1 class="font-extrabold font-[Fredoka] text-2xl">Apps By Mafuth</h1>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">A no code App builder designed for businesses.</p>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Reduce the business time and cost of building internal apps.</p>
