@@ -166,12 +166,7 @@
 			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[50%] p-10">
 				<h1 class="font-extrabold font-[Fredoka] text-2xl">Enterprise VPN</h1>
 				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">Peer to Peer VPN with enterprise level access controls and Quantum resilence encryption.</p>
-				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Make work from home more affordable to business.</p>
-				<div class="pt-[20px]">
-					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://vpn.mafuth.online">
-						Check it out
-					</a>
-				</div>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Make work from home more affordable to businesses.</p>
 			</div>
 		</div>
 		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/ai.png)] bg-center bg-cover ease-in-out duration-300">
