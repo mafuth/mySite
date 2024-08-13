@@ -28,8 +28,8 @@
 			<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0056.jpg)] bg-center bg-cover">
 				<div class="backdrop-blur-sm relative w-100 z-[2] bg-black bg-opacity-80 p-10">
 					<h1 class="font-extrabold font-[Fredoka] text-2xl">DevOps Engineer &  Data Analyst</h1>
-					<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">My goal is to create inovative soilutions to big problems using my skills.</p>
-					<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">How is got all my experience:<br>Development experience from more than 7 years taking on projects and working on open source tools. Operations experience from working on various projects at work and on contract basis, and building my own high availibility Proxmox Cluster at home. Data Anlysis experience from working with multiple database solutions and vendors on my day job at Ooredoo Maldives.</p>
+					<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko] text-start">My goal is to create inovative soilutions to big problems using my skills.</p>
+					<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko] text-start">How is got all my experience:<br><br>Development experience from more than 7 years taking on projects and working on open source tools. Operations experience from working on various projects at work and on contract basis, and building my own high availibility Proxmox Cluster at home. Data Anlysis experience from working with multiple database solutions and vendors on my day job at Ooredoo Maldives.</p>
 					<div class="pt-[20px] text-start">
 						<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://github.com/mafuth">
 							Check my Github
