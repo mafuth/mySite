@@ -145,6 +145,51 @@
 		</div>
 	</div>
 </div>
+<div class="w-100 bg-zinc">
+	<div class="text-center pt-[50px]">
+		<h1 class="text-white font-extrabold lg:text-6xl text-2xl font-[Fredoka]">My Services?</h1>
+	</div>
+	<div class="lg:mx-[200px] mx-3 mt-10 grid lg:grid-cols-2 grid-cols-1 gap-3 text-white">
+		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/abm.jpeg)] bg-center bg-cover hover:bg-left ease-in-out duration-300">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-90 p-10">
+				<h1 class="font-extrabold font-[Fredoka] text-2xl">Apps By Mafuth</h1>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">A no code App builder designed for businesses.</p>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Reduce the business time and cost of building internal apps.</p>
+				<div class="pt-[20px]">
+					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://apps.mafuth.online">
+						Check it out
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/vpn.png)] bg-center bg-cover hover:bg-right ease-in-out duration-300">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
+				<h1 class="font-extrabold font-[Fredoka] text-2xl">Enterprise VPN</h1>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">Peer to Peer Quantum resilent VPN connection with enterprise level access controls.</p>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Make work from home more affordable to business.</p>
+				<div class="pt-[20px]">
+					<a target="_blank" class="bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-lg font-[Fredoka]" href="https://vpn.mafuth.online">
+						Check it out
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/ai.png)] bg-center bg-cover hover:bg-right ease-in-out duration-300">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
+				<h1 class="font-extrabold font-[Fredoka] text-2xl">AI Bot builder</h1>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">Simple drag and drop AI as a service tool.</p>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Make AI services and automations available for everyone.</p>
+			</div>
+		</div>
+		<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/nvr.png)] bg-center bg-cover hover:bg-right ease-in-out duration-300">
+			<div class="backdrop-blur-sm relative w-100 h-full z-[2] bg-black bg-opacity-[95%] p-10">
+				<h1 class="font-extrabold font-[Fredoka] text-2xl">CCTV</h1>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]">AI powered enterprise level CCTV solution.</p>
+				<p class="rounded-md bg-zinc-800 p-3 mt-4 font-[Nerko]"><b class="text-2xl font-[Fredoka] font-thin">Goal:</b> Make home and business security cheaper.</p>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="w-100 bg-zinc min-h-screen mt-[100px] lg:block hidden">
 	<video class="absolute w-screen h-full object-cover z-[1]" playsinline muted loop autoplay src="./hobby.mp4">
 	</video>
