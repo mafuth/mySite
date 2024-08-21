@@ -24,6 +24,7 @@
 					<p class="rounded-md bg-zinc-900 p-3 font-[MageyHuseynu] text-center text-2xl">މުޙައްމަދު މަފާޒު</p>
 				</div>
 				<p class="rounded-md bg-zinc-900 p-3 font-[Fredoka] text-center text-2xl mt-3">MAFUTH</p>
+				<p class="rounded-md bg-zinc-900 p-3 font-[Fredoka] text-center text-2xl mt-5">hello@mafuth.online</p>
 			</div>
 			<div class="rounded-lg border-none bg-[url(https://raw.githubusercontent.com/mafuth/mySite/main/static/DJI_0056.jpg)] bg-center bg-cover">
 				<div class="backdrop-blur-sm relative w-100 z-[2] bg-black bg-opacity-80 p-10">
