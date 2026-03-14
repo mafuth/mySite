@@ -8,6 +8,6 @@
 <div class="flex flex-col">
 	<HeroSection />
 	<SkillsSection />
-	<!-- <GallerySection /> -->
-	<!-- <ContactSection /> -->
+	<GallerySection />
+	<ContactSection />
 </div>

@@ -1,51 +1,9 @@
 <script lang="ts">
 	// Using the provided pixelated and high-res images for the gallery as well
 	const galleryImages = [
-		{
-			src: "/images/Gemini_Generated_Image_3zjqhr3zjqhr3zjq.png",
-			title: "Cyberpunk Night",
-			category: "Pixel Art",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_hthyjrhthyjrhthy.png",
-			title: "Neon Dreams",
-			category: "Pixel Art",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_r6e2uzr6e2uzr6e2.png",
-			title: "Golden Hour",
-			category: "Photography",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_3zjqhr3zjqhr3zjq.png",
-			title: "Deep Sky",
-			category: "Photography",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_hthyjrhthyjrhthy.png",
-			title: "Synthwave Sun",
-			category: "Pixel Art",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_r6e2uzr6e2uzr6e2.png",
-			title: "Urban Jungle",
-			category: "Photography",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_3zjqhr3zjqhr3zjq.png",
-			title: "Pixel Rain",
-			category: "Pixel Art",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_hthyjrhthyjrhthy.png",
-			title: "Data Stream",
-			category: "Pixel Art",
-		},
-		{
-			src: "/images/Gemini_Generated_Image_r6e2uzr6e2uzr6e2.png",
-			title: "Silent Peak",
-			category: "Photography",
-		},
+		{ src: "/images/IMG_3644.JPEG" },
+		{ src: "/images/IMG_3433.JPEG" },
+		{ src: "/images/IMG_3342.JPEG" },
 	];
 
 	function handleMouseMove(e: MouseEvent) {
@@ -73,34 +31,39 @@
 	}
 </script>
 
-<section id="gallery" class="bg-white px-6 py-32 lg:px-20 overflow-hidden">
+<section id="gallery" class="relative bg-orange-50 px-6 py-32 lg:px-20 overflow-hidden">
+	<!-- Top Fade Bridge from Skills (Slate-50 to Orange-50) -->
+	<div class="absolute inset-x-0 top-0 h-48 bg-linear-to-b from-slate-50 to-orange-50"></div>
+	
+	<!-- Sunset Decorative Orbs -->
+	<div class="absolute top-1/4 -right-20 h-96 w-96 rounded-full bg-orange-500/10 blur-[100px] animate-pulse pointer-events-none"></div>
+	<div class="absolute bottom-1/4 -left-20 h-80 w-80 rounded-full bg-yellow-500/10 blur-[100px] animate-pulse pointer-events-none" style="animation-delay: 1s;"></div>
+
 	<div class="mx-auto max-w-7xl">
 		<div class="mb-24 text-center">
 			<h2
 				class="font-pixel mb-6 text-5xl font-black tracking-tighter text-slate-900 sm:text-7xl uppercase italic"
 			>
-				Photography & Art
+				Photography - Hobby
 			</h2>
 			<p
 				class="mx-auto max-w-2xl text-lg font-bold uppercase tracking-[0.2em] text-slate-400"
 			>
-				A collection of my favorite captures and digital pixel
-				experiments. <br class="hidden md:block" />
-				Each piece is a journey through light, color, and retro aesthetics.
+				A collection of my favorite captures.
 			</p>
 			<div class="mx-auto mt-8 h-1 w-24 bg-slate-900"></div>
 		</div>
 
 		<div
-			class="grid gap-8 md:gap-x-12 md:gap-y-24 grid-cols-2 lg:grid-cols-3"
+			class="grid gap-x-8 gap-y-12 md:gap-x-12 md:gap-y-16 grid-cols-2 lg:grid-cols-3"
 		>
 			{#each galleryImages as item, i}
 				<div
 					class="group relative aspect-4/5 perspective-1000 float-animation {i %
 						2 !==
 					0
-						? 'lg:mt-12'
-						: ''} {i % 2 === 0 ? 'lg:-mt-12' : ''}"
+						? 'lg:mt-6'
+						: ''} {i % 2 === 0 ? 'lg:-mt-6' : ''}"
 					style="animation-delay: {i * 0.2}s"
 					onmousemove={handleMouseMove}
 					onmouseleave={handleMouseLeave}
@@ -116,7 +79,7 @@
 						>
 							<img
 								src={item.src}
-								alt={item.title}
+								alt="Gallery piece"
 								class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
 							/>
 							<!-- Retro Scanline Overlay on Hover -->
@@ -128,22 +91,6 @@
 							<div
 								class="absolute inset-0 bg-linear-to-t from-slate-950/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 							></div>
-						</div>
-
-						<!-- Content -->
-						<div
-							class="absolute inset-x-6 bottom-8 p-0 translate-z-20 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-[-10px]"
-						>
-							<p
-								class="font-jersey text-xs font-black uppercase tracking-[0.3em] text-white/70 mb-2"
-							>
-								{item.category}
-							</p>
-							<h3
-								class="font-pixel text-2xl font-black text-white uppercase tracking-tight italic"
-							>
-								{item.title}
-							</h3>
 						</div>
 
 						<!-- Glow effect -->
@@ -164,9 +111,6 @@
 	.preserve-3d {
 		transform-style: preserve-3d;
 	}
-	.translate-z-20 {
-		transform: translateZ(40px);
-	}
 
 	.float-animation {
 		animation: float 6s ease-in-out infinite;
@@ -178,7 +122,7 @@
 			transform: translateY(0);
 		}
 		50% {
-			transform: translateY(-20px);
+			transform: translateY(-10px);
 		}
 	}
 

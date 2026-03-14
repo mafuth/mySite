@@ -17,10 +17,10 @@
 		: 'justify-center'}"
 >
 	<div
-		class="flex items-center transition-all duration-700 cubic-bezier-liquid cursor-default backdrop-blur-xl
+		class="flex items-center transition-all duration-700 cubic-bezier-liquid cursor-default
 		{scrolled
-			? 'gap-6 rounded-b-2xl border-x border-b border-white/40 bg-white/60 px-8 py-3 shadow-[0_20px_50px_rgba(0,0,0,0.1)] md:gap-10 md:px-12 md:py-4 scale-100'
-			: 'w-full gap-8 bg-white/40 px-6 py-4 border-b border-white/20 sm:px-12 sm:py-6'}"
+			? 'gap-6 rounded-b-2xl border-x border-b border-white/40 bg-white/60 backdrop-blur-xl px-8 py-3 shadow-[0_20px_50px_rgba(0,0,0,0.1)] md:gap-10 md:px-12 md:py-4 scale-100'
+			: 'w-full gap-8 bg-transparent px-6 py-4 border-b border-transparent sm:px-12 sm:py-6'}"
 	>
 		<!-- Brand -->
 		<a href="#top" class="flex items-center gap-2 group shrink-0">
@@ -53,8 +53,16 @@
 				class="font-pixel text-[12px] font-black uppercase tracking-widest text-slate-500 transition-all duration-300 hover:text-slate-900 hover:scale-110 active:scale-95 italic"
 				>Skills</a
 			>
-			<!-- <a href="#gallery" class="font-pixel text-[12px] font-black uppercase tracking-widest text-slate-500 transition-all duration-300 hover:text-slate-900 hover:scale-110 active:scale-95 italic">Gallery</a> -->
-			<!-- <a href="#contact" class="font-pixel text-[12px] font-black uppercase tracking-widest text-slate-500 transition-all duration-300 hover:text-slate-900 hover:scale-110 active:scale-95 italic">Contact</a> -->
+			<a
+				href="#gallery"
+				class="font-pixel text-[12px] font-black uppercase tracking-widest text-slate-500 transition-all duration-300 hover:text-slate-900 hover:scale-110 active:scale-95 italic"
+				>Gallery</a
+			>
+			<a
+				href="#contact"
+				class="font-pixel text-[12px] font-black uppercase tracking-widest text-slate-500 transition-all duration-300 hover:text-slate-900 hover:scale-110 active:scale-95 italic"
+				>Contact</a
+			>
 		</div>
 
 		<div class="hidden h-5 w-px bg-slate-200 md:block"></div>
