@@ -52,26 +52,9 @@
 
 <section
 	id="skills"
-	class="relative bg-slate-50 px-6 py-24 lg:px-20 overflow-hidden"
+	class="relative bg-white px-6 pb-24 pt-12 lg:px-20 overflow-hidden"
 >
-	<!-- Noise Texture -->
-	<div class="pointer-events-none absolute inset-0 opacity-[0.03] mix-blend-overlay">
-		<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			<filter id="noiseFilter">
-				<feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
-			</filter>
-			<rect width="100%" height="100%" filter="url(#noiseFilter)" />
-		</svg>
-	</div>
-
-	<!-- Background Decorative Grid -->
-	<div
-		class="absolute inset-0 pointer-events-none opacity-[0.05]"
-		style="background-image: radial-gradient(#000 1px, transparent 1px); background-size: 32px 32px;"
-	></div>
 	
-	<!-- Top Fade Bridge -->
-	<div class="absolute inset-x-0 top-0 h-48 bg-linear-to-b from-white to-slate-50"></div>
 
 	<div class="relative z-10 mx-auto max-w-7xl">
 		<div class="mb-24 lg:flex lg:items-end lg:justify-between">
@@ -139,6 +122,9 @@
 			{/each}
 		</div>
 	</div>
+
+    <!-- Bottom Fade Bridge to Gallery -->
+	<div class="absolute inset-x-0 bottom-0 h-48 bg-linear-to-t from-orange-50 to-white"></div>
 </section>
 
 <style>

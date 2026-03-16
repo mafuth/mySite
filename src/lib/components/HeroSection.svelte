@@ -198,10 +198,18 @@
 
 <section
 	id="top"
-	class="relative flex h-screen flex-col items-center justify-between overflow-hidden bg-white px-4 pb-0 pt-24 sm:px-6 sm:pt-32"
+	class="relative flex min-h-[130vh] flex-col items-center justify-between overflow-hidden bg-white px-4 pb-0 pt-24 sm:px-6 sm:pt-32"
 	onmousemove={handleMouseMove}
 	onmouseleave={handleMouseLeave}
 >
+	<!-- Background Ooredoo HQ (Very Back) -->
+	<div class="absolute inset-0 pointer-events-none z-0 overflow-hidden">
+		<img
+			src="/images/ooredoo_hq.png"
+			alt="Ooredoo HQ"
+			class="animate-retro-float-slow h-full w-full object-cover object-top opacity-[0.2] scale-[1.8] origin-top md:scale-110 blur-[2px]"
+		/>
+	</div>
 	<!-- Neural Network Canvas -->
 	<canvas bind:this={canvas} class="absolute inset-0 pointer-events-none z-10"
 	></canvas>
@@ -233,30 +241,31 @@
 		<p
 			class="mt-2 text-[10px] sm:text-xs font-black uppercase tracking-[0.5em] text-slate-400"
 		>
-			Developer • Architect • Designer
+			Developer • Architect • Designer @ Ooredoo Maldives
 		</p>
 	</div>
 
 	<div class="relative mt-auto w-full max-w-5xl overflow-visible px-4 z-20">
 		<div
-			class="relative mx-auto flex h-[50vh] sm:h-[55vh] w-full items-end justify-center"
+			class="relative mx-auto flex h-[80vh] sm:h-[85vh] w-full items-end justify-center"
 		>
 			<div
 				class="animate-retro-float relative w-full h-full flex items-end justify-center"
 			>
 				<img
-					src="/images/Gemini_Generated_Image_3zjqhr3zjqhr3zjq.png"
+					src="/images/me.png"
 					alt="Pixel Master"
 					class="hero-mask h-full w-auto max-w-none object-contain object-bottom scale-[1.25] sm:scale-[1.15] translate-y-8 sm:translate-y-12 transition-transform duration-700 brightness-[1.02]"
 				/>
 			</div>
-
-			<!-- Deep Gradient Fade at the Bottom - Adjusted to work with U-mask -->
-			<div
-				class="absolute inset-x-0 bottom-[-2px] h-32 sm:h-64 bg-linear-to-t from-white via-white/20 to-transparent z-10"
-			></div>
 		</div>
 	</div>
+
+	<!-- Seamless Concave U-Curve Bottom Fade -->
+	<div
+		class="absolute inset-x-0 bottom-0 h-[60vh] sm:h-[80vh] z-40 pointer-events-none"
+		style="background: radial-gradient(ellipse 150% 100% at 50% -10%, transparent 30%, white 95%);"
+	></div>
 </section>
 
 <style>
@@ -318,5 +327,18 @@
 	.animate-retro-float {
 		/* More steps for smoother but still retro feel */
 		animation: retro-float 6s infinite steps(24);
+	}
+
+	@keyframes retro-float-slow {
+		0%,
+		100% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-15px);
+		}
+	}
+	.animate-retro-float-slow {
+		animation: retro-float-slow 12s infinite ease-in-out;
 	}
 </style>

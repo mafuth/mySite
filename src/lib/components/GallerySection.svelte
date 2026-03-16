@@ -1,25 +1,46 @@
 <script lang="ts">
 	const galleryImages = [
 		{
-			src: "/images/IMG_3644.JPEG",
+			src: "/images/IMG_3644.jpeg",
 			title: "Lunar Phase",
-			location: "Observed",
+			location: "",
 			rotation: "-2deg",
 			offset: "-15px",
 		},
 		{
-			src: "/images/IMG_3433.JPEG",
+			src: "/images/IMG_3433.jpeg",
 			title: "Golden Hour",
-			location: "Horizon",
+			location: "",
 			rotation: "3deg",
 			offset: "15px",
 		},
 		{
-			src: "/images/IMG_3342.JPEG",
+			src: "/images/IMG_3342.jpeg",
 			title: "Deep Night",
-			location: "Zenith",
+			location: "",
 			rotation: "-1.5deg",
 			offset: "-10px",
+		},
+		{
+			src: "/images/IMG_3352.jpeg",
+			title: "Moonlit Tower",
+			location: "",
+			rotation: "-2deg",
+			offset: "0",
+		},
+		{
+			src: "/images/IMG_3891.jpeg",
+			title: "Lunar Drones",
+			location: "",
+			rotation: "3deg",
+			offset: "0",
+		},
+		{
+			src: "/images/IMG_3453.jpeg",
+			title: "Industrial Sunset",
+			location: "",
+			rotation: "-1deg",
+			offset: "0",
 		},
 	];
 
@@ -68,11 +89,6 @@
 			<rect width="100%" height="100%" filter="url(#noiseFilter)" />
 		</svg>
 	</div>
-
-	<!-- Top Fade Bridge from Skills -->
-	<div
-		class="absolute inset-x-0 top-0 h-48 bg-linear-to-b from-slate-50 to-orange-50"
-	></div>
 
 	<!-- Enhanced Decorative Orbs -->
 	<div

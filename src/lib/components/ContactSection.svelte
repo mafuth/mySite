@@ -178,7 +178,7 @@
 				<img
 					src="/images/icon.png"
 					alt="Mafuth Icon"
-					class="h-10 w-10 transition-transform group-hover:rotate-12"
+					class="h-10 w-10 rounded-full object-cover border border-slate-200 shadow-sm transition-transform group-hover:rotate-12"
 				/>
 				<span
 					class="font-pixel text-3xl font-black tracking-tight text-slate-900 uppercase italic"
