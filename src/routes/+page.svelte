@@ -10,6 +10,6 @@
 	<HeroSection />
 	<AboutMeSection />
 	<SkillsSection />
-	<GallerySection />
+	<!-- <GallerySection /> -->
 	<ContactSection />
 </div>

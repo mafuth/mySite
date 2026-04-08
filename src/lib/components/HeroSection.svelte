@@ -202,14 +202,14 @@
 	onmousemove={handleMouseMove}
 	onmouseleave={handleMouseLeave}
 >
-	<!-- Background Ooredoo HQ (Very Back) -->
+	<!-- Background Ooredoo HQ (Very Back)
 	<div class="absolute inset-0 pointer-events-none z-0 overflow-hidden">
 		<img
 			src="/images/ooredoo_hq.png"
 			alt="Ooredoo HQ"
 			class="animate-retro-float-slow h-full w-full object-cover object-top opacity-[0.2] scale-[1.8] origin-top md:scale-110 blur-[2px]"
 		/>
-	</div>
+	</div>  -->
 	<!-- Neural Network Canvas -->
 	<canvas bind:this={canvas} class="absolute inset-0 pointer-events-none z-10"
 	></canvas>
@@ -241,7 +241,7 @@
 		<p
 			class="mt-2 text-[10px] sm:text-xs font-black uppercase tracking-[0.5em] text-slate-400"
 		>
-			Developer • Architect • Designer @ Ooredoo Maldives
+			Developer • Architect • Designer
 		</p>
 	</div>
 
